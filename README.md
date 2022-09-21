@@ -2,8 +2,6 @@
 
 1. `export PROJECT_NAME=<my-project-name>`
 
-2. `git clone <this repo url> $PROJECT_NAME`
-
 3. Change the Python version in `environment.yml` to suit your needs.
 
 4. Replace `conda` commands below with `mamba` if you have it installed for increased speed.
@@ -16,7 +14,7 @@
     poetry init
     ```
 
-5. Make sure you specify the correction version of Python during `poetry init`.
+5. Use correct Python version during `poetry init`.
 
 6. Replace this `README.md` with your own.
 
